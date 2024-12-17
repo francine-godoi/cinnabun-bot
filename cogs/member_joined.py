@@ -18,7 +18,11 @@ class MemberJoined(commands.Cog):
             welcome_msg = file.readlines()
 
         randomized_msg = random.choice(welcome_msg)
-        await welcome_channel.send(f"Welcome! {randomized_msg}")         
+
+        embed = discord.Embed(title=f"Welcome, {member.name}!", colour = discord.Colour.random())
+        embed.add_field(name="", value=(f"{randomized_msg}"), inline=False)
+
+        await welcome_channel.send(embed=embed)              
 
 
 async def setup(bot):
