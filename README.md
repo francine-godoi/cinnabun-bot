@@ -8,6 +8,8 @@ In the [challenge #5](https://github.com/francine-godoi/coding-challenges-discor
 
 <ins>**SOLUTION:**</ins> I have to learn how to make my own bot and implement the funcionality the challenge is asking for.
 
+<ins>**Staus:**</ins> In development
+
 ---
 
 ### 📌 Resources / Tutorials
