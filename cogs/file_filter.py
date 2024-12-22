@@ -24,9 +24,9 @@ class FileFilter(commands.Cog):
 
                 bad_file_embed = discord.Embed(title=":rotating_light: Unsuppoted filetype! :rotating_light:", color=discord.Color.red())
 
-                error_message = f"{message.author.mention}, your message contained an unsupported file of filetype: .{file.filename.split('.')[-1]}.\n\nThe supported filetypes are: {' | '.join(self.accepted_extentions)}"
+                bad_file_alert = f"{message.author.mention}, your message contained an unsupported file of filetype: .{file.filename.split('.')[-1]}.\n\nThe supported filetypes are: {' | '.join(self.accepted_extentions)}"
 
-                bad_file_embed.add_field(name="", value=error_message, inline=False)
+                bad_file_embed.add_field(name="", value=bad_file_alert, inline=False)
 
                 await message.channel.send(embed=bad_file_embed)
 
