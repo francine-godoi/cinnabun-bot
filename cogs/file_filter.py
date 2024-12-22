@@ -22,7 +22,7 @@ class FileFilter(commands.Cog):
             if not any(file.filename.endswith(ext) for ext in self.accepted_extentions):
                 await message.delete()
 
-                bad_file_embed = discord.Embed(title=":rotating_light: Unsuppoted file! :rotating_light:", color=discord.Color.red())
+                bad_file_embed = discord.Embed(title=":rotating_light: Unsuppoted filetype! :rotating_light:", color=discord.Color.red())
 
                 error_message = f"{message.author.mention}, your message contained an unsupported file of filetype: .{file.filename.split('.')[-1]}.\n\nThe supported filetypes are: {' | '.join(self.accepted_extentions)}"
 
