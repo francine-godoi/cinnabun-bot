@@ -27,23 +27,20 @@ class Bunny(commands.Cog):
 
         async for post in subreddit.hot(limit=30):
             if not post.over_18 and any(post.url.endswith(ext) for ext in [".png", ".jpg", ".jpeg", ".gif"]):
-                if post.author is not None:
-                    author_name = post.author.name
-                else:
-                    author_name = "N/A"
+                author_name = post.author.name or "N/A"
                 post_list.append((post.url, author_name))
 
         if post_list:
-
             random_post = choice(post_list)
 
             bunny_embed = discord.Embed(title="🐇 Bunny! 🐇", color=discord.Color.random())
             bunny_embed.set_image(url=random_post[0])
             bunny_embed.set_footer(text=f"Post created by {random_post[1]}.")
+
             await ctx.send(embed=bunny_embed)
 
         else:
-            await ctx.send("Couldn't fing any'bunny', try again later.")
+            await ctx.send("Couldn't find any'bunny', try again later.")
 
     def cog_unload(self):
         self.bot.loop.create_task(self.reddit.close())
