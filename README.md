@@ -1,4 +1,7 @@
 # cinnabun-bot
+[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](README.pt-br.md)
+
 In the [challenge #5](https://github.com/francine-godoi/coding-challenges-discord/tree/main/Weekly-Challenges/chall-005) of the weekly challenges I'm doing; it asks you to add functionality to a filter for a Discod bot.
 
 <ins>**PROBLEM:**</ins> I don't know how to do that. Nor do I know how to test it were I to try.
@@ -9,9 +12,6 @@ In the [challenge #5](https://github.com/francine-godoi/coding-challenges-discor
 
 ### 📌 Resources / Tutorials
 * [Developing a Discord Bot With Python | 2024 by Paradoxial](https://www.youtube.com/playlist?list=PLwqYQaS6jxfmCUTbFU-_d5M4yGTmKS0gk)
-* [Create Your Own Discord Bot in Python 3.12 Tutorial (2024 Edition) by Indently](https://www.youtube.com/watch?v=UYJDKSah-Ww)
-* [How to Make a Discord Bot in Python by Alex Ronquillo](https://realpython.com/how-to-make-a-discord-bot-python/)
-
 
 ---
 <p align="center">
