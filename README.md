@@ -1,18 +1,18 @@
 # cinnabun-bot
-[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](README.pt-br.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](README.en.md)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](README.md)
 
-In the [challenge #5](https://github.com/francine-godoi/coding-challenges-discord/tree/main/Weekly-Challenges/chall-005) of the weekly challenges I'm doing; it asks you to add functionality to a filter for a Discod bot.
+No [desafio #5](https://github.com/francine-godoi/coding-challenges-discord/tree/main/Weekly-Challenges/chall-005) dos desafios semanais que estou fazendo é necessário fazer uma adicionar uma funcionalidade para filtrar arquivos para um bot do Discod.
 
-<ins>**PROBLEM:**</ins> I don't know how to do that. Nor do I know how to test it were I to try.
+<ins>**PROBLEMA:**</ins> Não sei como fazer isso nem como testaria caso eu tente.
 
-<ins>**SOLUTION:**</ins> I have to learn how to make my own bot and implement the funcionality the challenge is asking for.
+<ins>**SOLUÇÃO:**</ins> Tenho que aprender a fazer o meu prórpio bot e acrescentar essa função a ele.
 
-<ins>**Staus:**</ins> In development
+<ins>**Status:**</ins> Em desenvolvimento
 
 ---
 
-### 📌 Resources / Tutorials
+### 📌 Tutorial
 * [Developing a Discord Bot With Python | 2024 by Paradoxial](https://www.youtube.com/playlist?list=PLwqYQaS6jxfmCUTbFU-_d5M4yGTmKS0gk)
 
 ---
@@ -20,4 +20,3 @@ In the [challenge #5](https://github.com/francine-godoi/coding-challenges-discor
   <img width="140" height="200" src="cinnabun-bot.jpg">
 </p>
 <table align="center"><tr><td>Cinnabun-bot</td></tr></table
-
